@@ -7,13 +7,13 @@ This repository now includes an initial playable atmospheric simulator milestone
 From repository root:
 
 ```bash
-php /home/runner/work/homescores/homescores/weather-simulator.php --preset=clear --steps=20
+php weather-simulator.php --preset=clear --steps=20
 ```
 
 Interactive prompt mode:
 
 ```bash
-php /home/runner/work/homescores/homescores/weather-simulator.php --preset=fog --interactive=1
+php weather-simulator.php --preset=fog --interactive=1
 ```
 
 ## Controls and variables
@@ -76,7 +76,7 @@ t=20  🌫️ FOG    RH= 98.0% cloud= 21.9% rain=0.00001 fog=0.81 vis=1.90km
 Run:
 
 ```bash
-php /home/runner/work/homescores/homescores/tests/weather_simulator_test.php
+php tests/weather_simulator_test.php
 ```
 
 Covered logic:
